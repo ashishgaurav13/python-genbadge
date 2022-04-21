@@ -107,15 +107,15 @@ def get_color(
 ):
     """ Returns the badge color to use depending on the coverage rate """
 
-    if cov_stats.total_coverage < 50:
-        color = 'red'
-    elif cov_stats.total_coverage < 75:
-        color = 'orange'
-    elif cov_stats.total_coverage < 90:
-        color = 'green'
-    else:
-        color = 'brightgreen'
-
+#     if cov_stats.total_coverage < 50:
+#         color = 'red'
+#     elif cov_stats.total_coverage < 75:
+#         color = 'orange'
+#     elif cov_stats.total_coverage < 90:
+#         color = 'green'
+#     else:
+#         color = 'brightgreen'
+    color = 'white'
     return color
 
 
