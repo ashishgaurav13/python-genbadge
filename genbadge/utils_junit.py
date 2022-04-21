@@ -79,15 +79,15 @@ def get_color(
 ):
     """ Returns the badge color to use depending on the success percentage """
 
-    if test_stats.success_percentage < 50:
-        color = 'red'
-    elif test_stats.success_percentage < 75:
-        color = 'orange'
-    elif test_stats.success_percentage < 90:
-        color = 'green'
-    else:
-        color = 'brightgreen'
-
+#     if test_stats.success_percentage < 50:
+#         color = 'red'
+#     elif test_stats.success_percentage < 75:
+#         color = 'orange'
+#     elif test_stats.success_percentage < 90:
+#         color = 'green'
+#     else:
+#         color = 'brightgreen'
+    color = 'white'
     return color
 
 
